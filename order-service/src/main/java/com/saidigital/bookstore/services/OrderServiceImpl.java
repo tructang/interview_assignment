@@ -17,6 +17,8 @@ public class OrderServiceImpl implements OrderService{
 	@Override
 	public void createOrder(OrderItem item) {
 		OrderItem orderItem = new OrderItem();
+		orderItem.setBookItemId("1");
+		orderItem.setQuantity(3);
 		orderRepository.save(orderItem);		
 	}
 

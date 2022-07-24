@@ -8,9 +8,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class BookItem {
+	
 	private String id;
 	private String name;
 	private long  quantity;
 	private long price;
-
+	
 }

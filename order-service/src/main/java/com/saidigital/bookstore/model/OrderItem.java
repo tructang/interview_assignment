@@ -14,12 +14,12 @@ import lombok.NonNull;
 @AllArgsConstructor
 @NoArgsConstructor
 public class OrderItem {
+	
 	@Id
 	@NonNull
     @GeneratedValue(strategy= GenerationType.AUTO)
-	private String id;
-	
-	private String itemId;
+	private String id;	
+	private String bookItemId;
 	private long  quantity;
 	private long orderAt;
 
