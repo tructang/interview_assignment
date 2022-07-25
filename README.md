@@ -17,6 +17,9 @@
   - config-server
   - order-service
   - inventory-service
+  <img src="./documment/architct_design.png" alt="drawing" width="900" />
+
+### Architecture Design
 
 ### Service endpoints
 
