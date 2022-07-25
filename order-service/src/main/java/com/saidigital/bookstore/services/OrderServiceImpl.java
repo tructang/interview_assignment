@@ -1,5 +1,6 @@
 package com.saidigital.bookstore.services;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +25,12 @@ public class OrderServiceImpl implements OrderService{
 
 	@Override
 	public List<OrderItem> getAllOrders() {		
-		return  (List<OrderItem>) orderRepository.findAll();
+		OrderItem item = new OrderItem();
+		List<OrderItem> orders = new ArrayList<OrderItem>();
+		orders.add(item);
+		
+		return orders;
+		//return  (List<OrderItem>) orderRepository.findAll();
 	}
 
 }

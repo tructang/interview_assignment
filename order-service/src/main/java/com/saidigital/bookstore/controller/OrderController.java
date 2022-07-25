@@ -14,7 +14,7 @@ import com.saidigital.bookstore.model.OrderItem;
 import com.saidigital.bookstore.services.OrderService;
 
 @RestController
-@CrossOrigin(maxAge = 3600)
+//@CrossOrigin(maxAge = 3600)
 @RequestMapping("/orders")
 public class OrderController {
 	@Autowired
@@ -28,7 +28,6 @@ public class OrderController {
     @PostMapping
     public void createOrder(@RequestBody OrderItem order) {
         orderService.createOrder(order);
-    }
-	
+    }	
 
 }
