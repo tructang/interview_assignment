@@ -17,7 +17,7 @@
   - config-server
   - order-service
   - inventory-service
-  <img src="./documment/architct_design.PNG" alt="drawing" width="900" />
+  <img src="documment/architct_design.PNG" alt="drawing" width="900" />
 
 ### Architecture Design
 
